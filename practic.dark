@@ -1,0 +1,28 @@
+void main() {
+
+  double resultadoSuma = sumar(5, 10);
+  print(resultadoSuma);
+
+  double resultadoResta = restar(5, 10);
+  print(resultadoResta);
+
+  double resultadoMulti = multi(5, 10);
+  print(resultadoMulti);
+
+  double resultadoDiv = div(5, 10);
+  print(resultadoDiv);
+}
+
+double sumar(double a, double b) {
+  return a + b;
+}
+
+double restar(double a, double b) {
+  return a - b;
+}
+double multi(double a, double b) {
+  return a * b;
+}
+double div(double a, double b) {
+  return a / b;
+}
